@@ -1,0 +1,25 @@
+#ifndef _GLOBAL_DEFINE_H_
+#define _GLOBAL_DEFINE_H_
+
+enum eSERVER_TYPE
+{
+	UNKNOWN_SERVER_ERR		= -1,// SWITCH¾¯¸æ [2009-12-25 15:36:39  ]
+	UNKNOWN_SERVER 			= 0,
+	AGENT_SERVER			= 1,
+	FIELD_SERVER			= 2,
+	BATTLE_SERVER			= 3,
+	GAME_DBPROXY			= 4,
+	WORLD_SERVER			= 5,
+	MASTER_SERVER			= 6,
+	GUILD_SERVER            = 7,
+	ACCOUNT_DBPROXY			= 8,
+	TOURNAMENT_SERVER		= 9,
+	LOGIN_SERVER			= 10,	// TODO: DB¿¡ ³Ö±â?
+	OP_SERVER				= 11,   // WOPS(Webzen Online Portal Solution) Agent Server
+	TEMP_SERVER				= 12,
+	GAME_SERVER				= 13,	//< FIELD_SERVER¿Í BATTLE_SERVER¸¦ ÅëÄª
+};
+
+#endif
+
+
